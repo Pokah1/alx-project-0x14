@@ -6,10 +6,10 @@ const Home: React.FC = () => {
   return (
     <div className="bg-[#171D22] text-white">
       <section
-        className="h-screen bg-cover bg-center bg-no-repeat bg-fixed"
+        className="h-screen bg-cover bg-center"
         style={{
           backgroundImage:
-            'url("https://plus.unsplash.com/premium_photo-1748193468691-494891c77dfd?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")',
+            'url("https://themebeyond.com/html/movflx/img/bg/breadcrumb_bg.jpg")',
         }}
       >
         <div className="bg-black bg-opacity-50 h-full flex flex-col justify-center items-center text-center">
@@ -39,7 +39,7 @@ const Home: React.FC = () => {
         <Button title="Get Started" />
       </section>
     </div>
-  )
+  );
 };
 
 export default Home;
