@@ -1,7 +1,14 @@
-const Layout = () => {
-    return(
-        <h1>This is the Layout Component</h1>
-    )
-} 
+import Header from './Header';
+import Footer from './Footer';
+
+const Layout = ({ children }: { children: React.ReactNode }) => {
+  return (
+    <>
+      <Header />
+      <main>{children}</main>
+      <Footer />
+    </>
+  );
+};
 
 export default Layout;
